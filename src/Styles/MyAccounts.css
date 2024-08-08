@@ -1,0 +1,303 @@
+/* MyAccounts.css */
+.hcp-insights {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  font-size: 24px;
+  position: relative;
+}
+.moreicon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: blue;
+}
+.title {
+  position: absolute;
+  left: 10px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.back-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.account-name {
+  font-weight: bold;
+}
+
+.hcp-insights-header {
+  align-items: center;
+  background-color: #ff9900;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.hcp-insights-title {
+  font-weight: bold;
+}
+
+.content {
+  background: #ebeaea;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.primary-hcp {
+  margin-right: 20px;
+  flex: 0;
+}
+
+.primary-hcp h4 {
+  margin-bottom: 5px;
+}
+
+.primary-hcp .underline {
+  color: rgb(12, 77, 197);
+  text-decoration: underline;
+}
+
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-grow: 1;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.info-box {
+  border-left: 2px solid #d9d0d0;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  flex: 1;
+  min-width: 120px;
+  box-sizing: border-box;
+}
+
+.info-box h4 {
+  margin: 30px 0;
+  font-size: 16px;
+  color: #8e8585;
+}
+
+.info-box p {
+  margin: 30px 0;
+}
+
+.highlight {
+  font-size: 28px;
+  font-weight: bold;
+  color: #278631;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fighter-pilot {
+  background-image: url("../logo.svg");
+}
+
+.parity-usage {
+  background-image: url("../logo.svg");
+}
+
+.local-kol {
+  background-image: url("../logo.svg");
+}
+
+.claims-data {
+  background-image: url("../logo.svg");
+}
+.lineContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.line1,
+.line2 {
+  flex: 1;
+  border: 1px solid rgb(21, 94, 101);
+}
+
+.line1 {
+  margin-right: 40px;
+}
+
+.line2 {
+  margin-left: 40px;
+}
+
+/* after toggle  */
+.dashboard {
+  display: flex;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.left-column {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.right-column {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #154669;
+  border-bottom: 8px solid #ddd;
+  padding-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.objections-box,
+.content-box {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon3 {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.description {
+  flex-grow: 1;
+  font-size: 1em;
+  flex: 1;
+  color: #333;
+}
+.description3 {
+  flex-grow: 1;
+  font-size: 1.2em;
+  flex: 1;
+  color: #333;
+}
+.itemcontent {
+  width: 90%;
+  margin: 5px;
+  padding: 10px;
+}
+.itemobjection {
+  width: 90%;
+  margin: 5px;
+  padding: 5px;
+}
+.itemtrigger {
+  width: 80%;
+  margin: 25px;
+  padding: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.author {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 10%;
+}
+
+.trigger p {
+  margin: 5px 0;
+}
+
+.actions span:hover {
+  text-decoration: underline;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date3 {
+  flex-shrink: 0;
+  margin-left: 50px;
+  font-size: 1.1em;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 0.9em;
+  color: #007bff;
+  justify-content: center;
+  padding: 10px;
+}
+.actions span {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* after second section */
